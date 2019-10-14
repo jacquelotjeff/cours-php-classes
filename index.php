@@ -30,7 +30,8 @@ $client1 = new Personne();
 $client1
     ->setIdentifiant('18212121')
     ->setNom('Martins-Jacquelot')
-    ->setPrenom('Jeff');
+    ->setPrenom('Jeff')
+	->setAdresse("2 rue de la petite imprimante, 69420 Mourbignolles-sur-Pétule");
 
 $client2 = new Entreprise();
 $client2
@@ -46,3 +47,5 @@ $location2 = new Location();
 $location2
     ->setClient($client2)
     ->setVehicule($vehicule2);
+
+echo $client1->getAdresse();
