@@ -47,5 +47,3 @@ $location2
     ->setClient($client2)
     ->setVehicule($vehicule2);
 
-var_dump($client1);
-var_dump($client2);

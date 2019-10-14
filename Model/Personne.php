@@ -9,7 +9,7 @@ final class Personne implements ClientInterface
 
     private $prenom;
 
-    private $adresse;
+	private $adresse;
 
     use IdentifiantTrait;
 
@@ -37,7 +37,7 @@ final class Personne implements ClientInterface
         return $this;
     }
 
-    public function getAdresse(): string
+	public function getAdresse(): string
     {
         return $this->adresse;
     }
