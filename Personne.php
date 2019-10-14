@@ -10,6 +10,8 @@ class Personne implements ClientInterface
 
     private $prenom;
 
+    private $adresse;
+
     public function getIdentifiant(): string
     {
         return $this->identifiant;
@@ -42,6 +44,18 @@ class Personne implements ClientInterface
     public function setPrenom(string $prenom): self
     {
         $this->prenom = $prenom;
+
+        return $this;
+    }
+
+    public function getAdresse(): string
+    {
+        return $this->adresse;
+    }
+
+    public function setAdresse(string $adresse): self
+    {
+        $this->adresse = $adresse;
 
         return $this;
     }

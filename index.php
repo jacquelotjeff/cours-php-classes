@@ -30,6 +30,7 @@ $client1 = new Personne();
 $client1
     ->setIdentifiant('18212121')
     ->setNom('Martins-Jacquelot')
+    ->setAdresse('31 rue du Général, 75008 Paris')
     ->setPrenom('Jeff');
 
 $client2 = new Entreprise();
