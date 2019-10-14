@@ -3,7 +3,7 @@
 require_once 'ClientInterface.php';
 require_once 'IdentifiantTrait.php';
 
-final class Entreprise implements ClientInterface
+class Entreprise implements ClientInterface
 {
     private $nom;
 
